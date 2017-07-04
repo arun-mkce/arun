@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+</head>
+<body>
+  <div>
+        <h1>Mkce Login Page</h1>
+  	<p>Username : <input type="text" name="username" placeholder="Enter username"></p>
+  	<p>Password : <input type="password" id ="p" placeholder="Enter password"></p>
+  	<button type="submit" id="b">Login in</button>
+  
+  <script type="text/javascript">
+  document.getElementById('b').onclick= function myfunction(){
+  	var x=document.getElementById('p').value;
+    if(x!="arun")
+    {
+    	alert("Username or Password is incorrect")
+    }
+    else
+    {
+    	alert("Succesfully logged in")
+    }
+   }
+
+  </script>
+ </div>
+</body>
+</html>
